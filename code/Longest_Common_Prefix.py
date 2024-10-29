@@ -1,3 +1,6 @@
+# 06/10/2024
+# Link: https://leetcode.com/problems/longest-common-prefix/
+
 def prefix_verifier(strList):
     if not strList:
         return ""
