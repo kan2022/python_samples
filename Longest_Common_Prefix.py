@@ -13,6 +13,7 @@ def prefix_verifier(strList):
 
     return result
 
-print("Input a list of strings seperated by spaces:")
+
+print("Input a list of strings separated by spaces:")
 list_strings = input().lower().split()
 print(prefix_verifier(list_strings))
