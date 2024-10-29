@@ -1,17 +1,3 @@
-'''def prefix_verifier(strList):
-    list_len = len(strList)
-    i = 0
-    result = ""
-    print(range(len(strList) - 1))
-    for j in range(len(strList) - 1):
-        while i < list_len - 1:
-            if strList[i][j] != strList[i + 1][j]:
-                result += strList[i][j]
-                print(result)
-                break
-            i += 1
-        i = 0'''
-
 def prefix_verifier(strList):
     if not strList:
         return ""
